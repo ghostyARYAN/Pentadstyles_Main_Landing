@@ -1,0 +1,69 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    :root {
+        --background: 0 0% 100%;
+        --foreground: 222.2 84% 4.9%;
+        --radius: 0.5rem;
+    }
+
+    .dark {
+        --background: 222.2 84% 4.9%;
+        --foreground: 210 40% 98%;
+    }
+}
+
+/* Original Custom Styles preserved below */
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap');
+
+:root {
+    /* Colors - Modern Dark Palette */
+    --bg-main: #0a0a0c;
+    --bg-surface: rgba(255, 255, 255, 0.03);
+    --bg-surface-hover: rgba(255, 255, 255, 0.06);
+    --text-main: #ffffff;
+    --text-muted: #a1a1aa;
+
+    --color-accent: #FF7B54;
+    --color-glow-1: #FF7B54;
+    --color-glow-2: #8B5CF6;
+
+    --border-light: rgba(255, 255, 255, 0.08);
+    --border-hover: rgba(255, 255, 255, 0.15);
+
+    --radius-sm: 8px;
+    --radius-md: 12px;
+    --radius-lg: 24px;
+
+    --shadow-sm: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+    --shadow-glow: 0 0 20px rgba(139, 92, 246, 0.15);
+
+    --transition: all 0.3s ease;
+}
+
+/* Keep current styles */
+body {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    background-color: var(--bg-main);
+    color: var(--text-main);
+    margin: 0;
+    line-height: 1.6;
+}
+
+/* Glass Panel Utility */
+.glass-panel {
+    background: rgba(255, 255, 255, 0.02);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border: 1px solid rgba(255, 255, 255, 0.05);
+    border-radius: var(--radius-lg);
+    position: relative;
+    overflow: hidden;
+}
+
+/* Helper for animations */
+.overflow-hidden {
+    overflow: hidden;
+}

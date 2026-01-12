@@ -1,0 +1,171 @@
+{
+  "brand": {
+    "name": "PentadStyles",
+    "tagline": "Tradition Reimagined for the Modern Era",
+    "mission": "Elevate handloom craft with contemporary design and ethical manufacturing.",
+    "values": [
+      "Authenticity",
+      "Craftsmanship",
+      "Sustainability",
+      "Minimal Design",
+      "Community Impact"
+    ]
+  },
+  "seo": {
+    "title": "PentadStyles — Handloom reimagined",
+    "description": "Discover curated handloom collections and a modern commerce platform powering artisan-first brands.",
+    "keywords": [
+      "handloom",
+      "artisan",
+      "saree",
+      "sustainable fashion",
+      "ecommerce",
+      "PentadStyles"
+    ]
+  },
+  "hero": {
+    "bannerLabel": "New Shadow Collection",
+    "headline": "Tradition Reimagined for the Modern Era.",
+    "subheadline": "Experience the finest handloom artistry through a lens of contemporary elegance. Authentic, minimal, and timeless.",
+    "primaryCta": { "label": "Shop Now", "href": "/store" },
+    "secondaryCta": { "label": "Our Story", "href": "#about" },
+    "image": "/images/mjq9i12n-e8qqspt.png"
+  },
+  "about": {
+    "title": "Our Story",
+    "lead": "We partner with master artisans across India to bring handloom textiles to a global audience, preserving heritage while innovating in design.",
+    "copy": "PentadStyles works directly with artisan communities to produce small-batch collections using natural fibers and time-honored techniques. Our design language blends minimal silhouettes with cultural motifs, resulting in pieces that feel both rooted and modern.",
+    "highlights": [
+      { "label": "Artisans", "value": "120+" },
+      { "label": "Villages Impacted", "value": "35+" },
+      { "label": "Natural Fibers", "value": "100%" },
+      { "label": "Carbon Neutral Packaging", "value": "Yes" }
+    ],
+    "images": [
+      "/images/mjq9i121-ain7t5f.png",
+      "/images/mjq9i121-6p6g15s.png"
+    ]
+  },
+  "platform": {
+    "title": "The PentadStyles Platform",
+    "overview": "A unified commerce stack built for artisan-first fashion brands, optimized for speed, transparency, and operational excellence.",
+    "modules": [
+      {
+        "key": "landing",
+        "name": "Landing Site",
+        "tech": "Vite",
+        "description": "High-performance marketing site for storytelling, SEO, and conversion."
+      },
+      {
+        "key": "client",
+        "name": "Client App",
+        "tech": "React + Vite",
+        "description": "Customer-facing storefront with collections, product pages, and fast checkout."
+      },
+      {
+        "key": "admin",
+        "name": "Admin Panel",
+        "tech": "React + Tailwind + shadcn/ui",
+        "description": "Operations console for catalog, orders, CMS pages, promos, and analytics."
+      },
+      {
+        "key": "server",
+        "name": "API Server",
+        "tech": "Express + Prisma + PostgreSQL",
+        "description": "Core API with authentication, inventory, orders, coupons, and content delivery."
+      }
+    ],
+    "capabilities": [
+      {
+        "title": "Modern Storefront",
+        "description": "Lightning-fast browsing, image optimization, and mobile-first UX."
+      },
+      {
+        "title": "Integrated CMS",
+        "description": "Create and publish pages like About and Policies via the Admin Panel."
+      },
+      {
+        "title": "Order & Inventory",
+        "description": "Real-time stock tracking, order lifecycle, and shipment labels."
+      },
+      {
+        "title": "Promotions",
+        "description": "Coupons and launches managed centrally with audit trails."
+      },
+      {
+        "title": "Sustainability",
+        "description": "Supplier transparency and impact reporting baked into the platform."
+      }
+    ],
+    "integrations": [
+      { "name": "Payments", "providers": ["Razorpay/Stripe (configurable)"] },
+      { "name": "Shipping", "providers": ["Shiprocket"] },
+      { "name": "Media", "providers": ["Cloud Storage (S3-compatible)"] }
+    ]
+  },
+  "collections": [
+    {
+      "title": "Banarasi Royale",
+      "subtitle": "The Golden Thread",
+      "image": "/images/mjq9i12n-evquage.png",
+      "span": "span-2 span-row-2"
+    },
+    {
+      "title": "Assam Silk",
+      "subtitle": "Organic Texture",
+      "image": "/images/mjq9i12n-g5sftkh.png",
+      "span": ""
+    },
+    {
+      "title": "Kanchipuram",
+      "subtitle": "Southern Heritage",
+      "image": "/images/mjq9i121-ain7t5f.png",
+      "span": ""
+    },
+    {
+      "title": "Cotton Daily",
+      "subtitle": "Breathable Comfort",
+      "image": "/images/mjq9i121-6p6g15s.png",
+      "span": "span-2"
+    }
+  ],
+  "features": [
+    {
+      "title": "Ethical Sourcing",
+      "description": "We pay fair wages and invest in artisan education and infrastructure."
+    },
+    {
+      "title": "Small-Batch Quality",
+      "description": "Limited runs reduce waste and ensure meticulous craftsmanship."
+    },
+    {
+      "title": "Traceable Materials",
+      "description": "From fiber to finish, each piece includes origin and process details."
+    }
+  ],
+  "testimonials": [
+    {
+      "author": "Aparna, Bengaluru",
+      "quote": "The textures and drape are incredible. You can feel the craft in every weave."
+    },
+    {
+      "author": "Meera, Mumbai",
+      "quote": "Finally a brand that bridges heritage and modern design without compromise."
+    }
+  ],
+  "cta": {
+    "title": "Join the Movement",
+    "subtitle": "Support artisan communities and wear pieces with a story.",
+    "buttons": [
+      { "label": "Explore Collections", "href": "#featured", "variant": "primary" },
+      { "label": "Read Our Story", "href": "#about", "variant": "secondary" }
+    ]
+  },
+  "contact": {
+    "email": "hello@pentadstyles.com",
+    "socials": [
+      { "platform": "Instagram", "href": "https://instagram.com/pentadstyles" },
+      { "platform": "Pinterest", "href": "https://pinterest.com/pentadstyles" }
+    ]
+  }
+}
