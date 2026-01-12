@@ -1,5 +1,6 @@
 import React from 'react';
 import { WorldMapDemo } from './components/WorldMapDemo';
+import { BlogSection } from './components/BlogSection';
 import {
     LayoutDashboard, Package, ShoppingBag, TicketPercent, Leaf, Sparkles,
     Store, Boxes, Tag, CreditCard, Truck, Cloud, Bot, Globe, Handshake,
@@ -19,6 +20,7 @@ function App() {
                 <nav className="nav-links">
                     <a href="#home" className="nav-link active">Home</a>
                     <a href="#about" className="nav-link">About</a>
+                    <a href="#blog" className="nav-link">Blog</a>
                     <a href="#contact" className="nav-link">Contact</a>
                     <a href="https://store.pentadstyles.shop" target="_blank" className="nav-link" style={{ color: 'var(--color-glow-1)' }}>Login</a>
                 </nav>
@@ -234,6 +236,9 @@ function App() {
                     </div>
                 </div>
             </section>
+
+            {/* Blog Section */}
+            <BlogSection />
 
             {/* Footer */}
             <footer className="footer" id="contact" style={{ textAlign: 'left', padding: '6rem 0', borderTop: '1px solid var(--border-light)' }}>
