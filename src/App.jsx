@@ -247,7 +247,7 @@ function App() {
                         <a href="#" className="logo" style={{ marginBottom: '1.5rem', display: 'inline-block', fontSize: '1.5rem' }}>PentadStyles</a>
                         <p style={{ color: 'var(--text-muted)', fontSize: '0.95rem', lineHeight: 1.8 }}>
                             Made with <span style={{ color: '#e25555' }}>&hearts;</span> in India.<br />
-                            &copy; 2024 Pentad Styles. <br />All rights reserved.
+                            &copy; {new Date().getFullYear()} LEELA SHRI VALI PRIVATE LIMITED (PentadStyles). <br />All rights reserved.
                         </p>
                     </div>
 
